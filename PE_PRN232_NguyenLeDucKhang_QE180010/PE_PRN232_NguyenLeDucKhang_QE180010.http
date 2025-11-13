@@ -1,0 +1,6 @@
+@PE_PRN232_NguyenLeDucKhang_QE180010_HostAddress = http://localhost:5283
+
+GET {{PE_PRN232_NguyenLeDucKhang_QE180010_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

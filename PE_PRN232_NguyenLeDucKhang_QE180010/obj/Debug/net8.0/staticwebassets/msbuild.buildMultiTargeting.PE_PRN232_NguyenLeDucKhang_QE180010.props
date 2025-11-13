@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PE_PRN232_NguyenLeDucKhang_QE180010.props" />
+</Project>

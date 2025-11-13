@@ -1,0 +1,58 @@
+# Build artifacts
+bin/
+obj/
+*.dll
+*.pdb
+*.exe
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Docker
+Dockerfile*
+.dockerignore
+docker-compose*.yml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# Other
+README.md
+*.http
+
