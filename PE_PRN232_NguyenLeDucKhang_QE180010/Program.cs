@@ -64,7 +64,10 @@ app.UseAuthorization();
 app.MapControllers();
 
 // ✅ Dùng PORT động
-var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
-app.Urls.Add($"http://0.0.0.0:{port}");
+if (!app.Environment.IsDevelopment())
+{
+    var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+    app.Urls.Add($"http://0.0.0.0:{port}");
+}
 
 app.Run();
