@@ -22,3 +22,4 @@ ENV ASPNETCORE_URLS=http://+:${PORT}
 ENV ASPNETCORE_ENVIRONMENT=Production
 
 ENTRYPOINT ["dotnet", "PE_PRN232_NguyenLeDucKhang_QE180010.dll"]
+

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PE_PRN232_NguyenLeDucKhang_QE180010")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4de015602df9a8418b077bb285de88b098dbc6d")]
 [assembly: System.Reflection.AssemblyProductAttribute("PE_PRN232_NguyenLeDucKhang_QE180010")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PE_PRN232_NguyenLeDucKhang_QE180010")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -42,9 +42,9 @@ builder.Services.AddCors(options =>
     });
 });
 
-builder.Services.AddScoped<IPostRepository, PostRepository>();
+builder.Services.AddScoped<IMovieRepository, MovieRepository>();
 builder.Services.AddScoped<ISupabaseService, SupabaseService>();
-builder.Services.AddScoped<IPostService, PostService>();
+builder.Services.AddScoped<IMovieService, MovieService>();
 
 var app = builder.Build();
 
